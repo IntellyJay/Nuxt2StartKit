@@ -1,0 +1,8 @@
+{
+    "메뉴": "MENU",
+    "로그인": "LOGIN",
+    "로그아웃": "LOGOUT",
+    "message": {
+        "hello": "Hello"
+    }
+}
