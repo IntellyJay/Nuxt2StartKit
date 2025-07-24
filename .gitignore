@@ -61,6 +61,7 @@ web_modules/
 
 # Output of 'npm pack'
 *.tgz
+*.zip
 
 # Yarn Integrity file
 .yarn-integrity
@@ -70,10 +71,6 @@ web_modules/
 .env.*
 !.env.example
 
-# parcel-bundler cache (https://parceljs.org/)
-.cache
-.parcel-cache
-
 # Next.js build output
 .next
 out
@@ -82,18 +79,14 @@ out
 .nuxt
 dist
 
-# Gatsby files
-.cache/
-# Comment in the public line in if your project uses Gatsby and not Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
-# public
-
 # vuepress build output
 .vuepress/dist
 
-# vuepress v2.x temp and cache directory
+# temp and cache directory
 .temp
 .cache
+.cache/
+.parcel-cache
 
 # Sveltekit cache directory
 .svelte-kit/
@@ -137,3 +130,12 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# IDE / Editor
+.idea
+
+# Vim swap files
+*.swp
+
+# macOS
+.DS_Store
